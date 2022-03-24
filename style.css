@@ -16,11 +16,17 @@ h1 {
     font-size: 10vw;
     font-family: 'Passion One', cursive;
     padding-top: 50px;
+    font-variant: small-caps;
 }
 
 a {
     text-decoration: none;
     color: white;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 header > a > p {
@@ -60,7 +66,6 @@ section {
     background-size: cover;
     background-position: center;
 }
-
 
 footer {
     background-color: black;
